@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+ }
+ 
+ 
+ .header {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+ }
+ 
+ 
+ nav {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+ }
+ 
+ nav ul li a {
+    text-decoration: none;
+    color: rgb(16, 119, 135);
+    font-weight: bolder;
+ }
+ 
+ nav ul li a:hover {
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+ }
+ 
+ .button-cv, .button-gfc{
+    display: inline-block;
+    margin-left: 0%;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    background: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .button-cv:hover {
+    background-color: whitesmoke;
+ }
+ 
+ .button-gfc{
+    background: lightsalmon;
+ }
+ 
+ .button-gfc:hover {
+    background-color: whitesmoke;
+ }
+ 
+ 
+ .body {
+    margin-left: 100px;
+    margin-top: 100px;
+ }
+ 
+ .body h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+ }
+ 
+ .demo1 {
+    color: seagreen;
+    margin-bottom: 40px;
+ }
+   
+ .demo2 {
+    color: seagreen;
+    line-height: 30px;
+ }
+ 
+ .button-lrn, .button-hire{
+    background: lightsalmon;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ 
+ .button-lrn:hover {
+    background-color: whitesmoke;
+    color: black;
+ }
+ 
+ .button-hire {
+    background: lightsalmon;
+ }
+ 
+ .button-hire:hover {
+    background-color: whitesmoke;
+ }
+ 
+ span {
+    color: yellow;
+ }
+ 
+ 
+ .image {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+ }
+ 
+ .image img {
+    height: 60%;
+    position:absolute;
+    left: 75%;
+    bottom: 10%;
+    transform: translate(-60%);
+ }
